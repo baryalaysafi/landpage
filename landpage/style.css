@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #483c32;
+    display: flex;
+}
+
+#part1 {
+    background-color: #5865f2;
+    height: 100%;
+    width: 26%;
+    /* background-color: red; */
+}
+
+#part2 {
+    height: 145%;
+    width: 69%;
+    background-color: blue;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#part3 {
+    height: 100%;
+    width: 7%;
+    /* background-color: green; */
+
+}
+
+#text-div {
+    /* height: 300px; */
+    position: absolute;
+    width: 400px;
+    /* background-color: red; */
+    left: 7%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#text-div>h1 {
+    font-size: 85px;
+    font-family: monument;
+    font-weight: 800;
+    letter-spacing: 8px;
+    line-height: 78px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#small-img-div {
+    height: 400px;
+    width: 300px;
+    /* background-color: red; */
+    background-size: cover;
+    background-position: center;
+    background-image: url(images/background\ small.jpg);
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+}
+
+#vertical-text {
+    position: absolute;
+    transform: rotate(90deg);
+    right: -58%;
+    top: -0;
+    transform-origin: 0% 0%;
+    /* width: 100%; */
+    /* background-color: red; */
+
+}
+
+#vertical-text h1 {
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    color: transparent;
+    font-family: monument;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+
+#nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    /* background-color: red; */
+    left: 5%;
+    top: 5%;
+
+}
+
+#nav img {
+    height: 100px;
+
+}
+
+#nav h5 {
+    font-size: 30px;
+    font-family: texas tango bold personal use;
+    color: #fff;
+}
